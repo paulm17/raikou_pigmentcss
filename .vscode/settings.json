@@ -1,0 +1,18 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "jest.autoRun": "off",
+  "explorer.autoReveal": false,
+  "git.enabled": false,
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript react"
+  },
+  "tailwindCSS.classAttributes": ["className", "classNames"],
+  "tailwindCSS.experimental.classRegex": [
+    // stylefusion array
+    ["\\w+:\\s*\\[([^']*)\\],?", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ]
+}
